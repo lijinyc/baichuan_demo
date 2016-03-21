@@ -1,0 +1,590 @@
+*{
+    margin:0;
+    padding: 0;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+li{
+    list-style: none;
+    float:left;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.logo{
+    background: #000 none repeat scroll 0 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    height: 95px;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.logo img{
+    padding-left: 82px;
+    padding-top: 20px;
+}
+.logo li{
+    float: left;
+    margin-left: 57px;
+    margin-top: 32px;
+}
+.logo a{
+    color: #fff;
+    font-size: 17px;
+}
+.logo a:hover{
+    color: #3199f4;
+}
+.btn{
+    background-color: #0089cd;
+    border: 1px solid #0089cd;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 26px;
+    padding: 7px 12px;
+}
+.btn:hover{
+    background-color: #0d7cb4;
+    border:1px solid #0d7cb4;
+}
+.land{
+    font-size: 16px;
+    margin-left: 11px;
+ }
+.contentOne{
+    background:rgba(0, 0, 0, 0) url("../images/3.jpg") no-repeat scroll center 0 / cover;
+    position: relative;
+    min-height: 631px;
+}
+.introduces{
+    color: #fff;
+    margin-top: 15%;
+    text-align: center;
+}
+.introduces div{
+    font-size: 74px;
+}
+.publicJU{
+    border: 1px solid #0089cd;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5%;
+    padding: 7px 40px;
+    cursor: pointer;
+}
+.join{
+    background-color: #0089cd;
+    margin-left: 36%;
+}
+.about{
+    float: right;
+    margin-top: -21%;
+    position: fixed;
+    text-align: center;
+    margin-left: 95.6%;
+    cursor: pointer;
+    z-index: 10;
+}
+.vector{
+    background-color: #0089cd;
+    height: 44px;
+    line-height: 44px;
+    width: 44px;
+  }
+.vector i{
+    font-size: 24px;
+    color: #fff;
+}
+.heroRecruit{
+    background-color: #eee;
+    color: #349fd5;
+    height: 44px;
+    left: 59px;
+    line-height: 44px;
+    margin-left: 44px;
+    margin-top: -44px;
+    width: 103px;
+}
+.heroRecruit span{
+    font-size: 16px;
+}
+.notice{
+    background-color: #eee;
+    height: 40px;
+}
+.noticeC{
+    margin-left: 15%;
+    margin-top: -28px;
+}
+.horn{
+    color: #0089cd;
+    display: inline-block;
+    font-size: 25px !important;
+    margin-top: 3px;
+    padding-left: 12%;
+}
+.point{
+    background-color: #0089cd;
+    border-radius: 100%;
+    display: inline-block;
+    height: 4px;
+    margin-right: -18px;
+    margin-top: -3px;
+    vertical-align: middle;
+    width: 4px;
+}
+.notice span{
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.notice span:hover{
+    color: #0089cd;
+}
+.contentTwo{
+    background-color: #fff;
+    height: 700px;
+}
+.product{
+    font-size: 47px;
+    margin-top: 133px;
+    text-align: center;  
+}
+.productIntroduces{
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+}
+.public{
+    position: relative;   
+}
+@keyframes public{
+    0%{transform:translateX(-200px)}   
+    100%{transform:translateX(0px)}
+}
+.operate{
+    position: relative;
+}
+@keyframes operate{
+    0%{transform:translateX(200px)}   
+    100%{transform:translateX(0px)}
+}
+.publicYS{    
+    margin-top: 3%;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+@keyframes publicYS{
+    0%{top: -30px;}
+    100%{top: 0px;}
+}
+.publicYS img{
+    margin-top: 10%;
+} 
+.businessZ{
+    font-size: 31px;
+    margin-top: 4%;  
+    position: relative;
+ } 
+ @keyframes bz{
+    0%{top: -15px;}
+    100%{top:0px;}
+}
+.bza{
+    animation:bz 0.3s; 
+}
+.publicYS p{
+    font-size: 18px;
+    margin-top: -7px;
+}
+.publicYS span{
+    display: inline-block;
+    margin-top: 10px;
+}
+.businessXQ{
+    border: 1px solid #0089cd;
+    color: #0089cd;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5%;
+    padding: 7px 40px;
+}
+.contentThree{
+    background:url('../images/8.png');
+    min-height: 850px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+.pioneeringS{
+    font-size: 40px;
+    margin-top: 7%;
+}
+.pioneeringSI{
+    font-size: 17px;
+    line-height: 5;
+}
+.pIntroduces{
+    margin-left: 76px;
+}
+.pIntroducesLi{
+    background-color: #fff;
+    border: 1px solid;
+    height: 497px;
+    margin-left: 12px;
+    width: 380px;
+}
+.newActivity{
+    border-bottom: 1px solid #ddd;
+    color: #000;
+    font-size: 25px;
+    height: 81px;
+    padding-bottom: 36px;
+    padding-top: 19px;
+}
+.newActivity_2li{
+    border-bottom: 1px solid #fff;
+}
+.publicActivityS{
+    cursor: pointer;
+    height: 185px;
+    padding-left: 26px;
+    padding-right: 16px;
+    text-align: left;
+    width: 50%;
+}
+.pioneering_left{
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.pL_1{
+    color: #ccc;
+    line-height: 4;
+}
+.pL_2{
+    color: #000;
+    margin-top: -5px;
+}
+.pL_3{
+    color: #ccc;
+    margin-top: 15px;
+}
+.pL_1:hover,.pL_3:hover{
+    color: #0089cd;
+}
+.pioneering_right{
+    float: right;
+    margin-top: -52.9%;
+    border-bottom: 1px solid #ddd;
+}
+.pioneering_leftBottom{
+    float: left;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.pioneering_rightBottom{
+    float: right;
+    border-bottom: 1px solid #ddd;
+}
+.viewAll{
+    color: #0089cd;
+    margin-top: 197px;
+    cursor: pointer;
+}
+.incubation{
+    background-color: #2aae87;
+    height:415px;
+    margin-left: -16px;
+    width: 380px;
+}
+.incubation ul{
+    background-color: #2aae87;
+    height: 415px;
+    line-height: 2;
+    padding-top: 50px;
+    padding-left: 54px;
+    text-align: left;
+    width: 380px;
+}
+.incubation li{
+    list-style:disc  !important;
+    margin-top: 27px;
+}
+.incubation li p{
+    font-size: 17px;
+}
+.dreamPublicS{
+    border-bottom: 1px solid #ddd;
+    color: #444;
+    height: 208px;
+    text-align: center;
+    line-height: 2;
+}
+.loan{
+    border-bottom:0px;
+}
+.dreamPublicS p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 52px;
+    position: relative;
+}
+@keyframes dps{
+    0%{top: -10px;}
+    50%{top: -20px;}     
+    100%{top: 0px;}
+}
+.hover1{
+   animation:dps 3s;
+   animation-play-state:paused;
+
+}
+.dreamPublicS span{
+    display: none;
+    position: relative;
+}
+.modelCustomer{
+    height: 200px;
+    text-align: center;
+}
+.simpleShell p{
+    font-size: 40px;
+    margin-top: 100px;
+}
+.simpleShell span{
+    font-size: 20px;
+    color: #666;
+    margin-top: 20px;
+}
+.mCimg_1{
+    margin-top: -28px;
+}
+.mCimg_2{
+    margin-top: -10px;
+}
+.mCspan_1{
+    display: inline-block;
+    margin-top: 30px !important;
+}
+.ceo{
+    color: #a6a6a6;
+    margin-top: 20px;
+}
+video{
+    margin-top: 32px;
+    width: 20%;
+}
+.operationSlide{
+    margin-top: 30px;
+}
+.slide{
+    border: 1px solid #ededed;
+    border-radius: 40px;
+    height: 69px;
+    width: 73px;
+}
+.slideLeft{
+    float: left;
+    margin-left: 9%;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.slideRight{
+    float: right;
+    margin-right: 76px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.sliderow{    
+    float: left;
+    margin-left: 85px;
+    margin-top: 50px;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 797px;
+}
+.slidexs{
+    padding: 0;
+    position: relative;
+    width: 300%;
+}
+.slideUl{
+     padding: 0;
+}
+.slideUl li{
+    float: left;
+    margin: 5px;
+    width: 116px;
+}
+.slideUl img{
+    height: 80px;
+    margin-left: 47px;
+    width: 80px;
+}
+.slideImg1{
+    display: none;
+    margin-left: -26px;
+    margin-top: -10px;
+}
+.slideImg2{
+    margin-left: -26px;
+    margin-top: -7px;
+}
+.slideImg3{
+    margin-left: -20px;
+    margin-top: -10px;
+}
+.slideImg4{
+    display: none;
+    margin-left: -20px;
+    margin-top: 5px;
+}
+.hr_1{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 92px;
+    border-color: #ddd;
+}
+.cooperationPartner{
+     height: 200px;
+    text-align: center;
+}
+.cP{
+     font-size: 40px;
+     margin-top: 100px;
+
+}
+.cloud{
+    background-image: url(../images/15_1.png);
+    width: 140px;
+    height: 50px;
+}
+.cloud:hover{
+    background-image: url(../images/15_2.png);
+}
+.gaud{
+    background-image: url(../images/15_3.png);
+    width: 140px;
+    height: 50px;
+}
+.gaud:hover{
+    background-image: url(../images/15_4.png);   
+}
+.friendAlliance{
+    background-image: url(../images/15_5.png);
+    width: 140px;
+    height: 50px;
+}
+.friendAlliance:hover{
+    background-image: url(../images/15_6.png);   
+}
+.arie{
+    background-image: url(../images/15_7.png);
+    width: 140px;
+    height: 50px;
+}
+.arie:hover{
+    background-image: url(../images/15_8.png);   
+}
+.uc{
+    background-image: url(../images/15_9.png);
+    width: 140px;
+    height: 50px;
+}
+.uc:hover{
+    background-image: url(../images/15_10.png);   
+}
+.partner{
+    margin-left: 11%;
+    margin-top: 57px;
+    margin-bottom: 15%;
+}
+.partner li{
+    margin-left: 56px;
+}
+.getReadyJoin{
+    background-image:url(../images/16.png);     
+    height: 363px;
+}
+.getReady{
+    color: #fff;
+    font-size: 24px;
+    margin-top: 10%;
+}
+.gRbutton{
+    background-color: #0089cd;
+    border: 1px solid #0089cd;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 3%;
+    padding: 7px 40px;
+}
+.gRbutton:hover{
+    background-color: #0d7cb4;
+    border: 1px solid #0d7cb4;
+}
+.relevantIntroduces{
+    background-color: #f5f5f5;
+    height: 500px;
+    padding-left: 10%;
+    padding-top: 65px;
+    text-align: left;
+} 
+.relevantIntroduces dl{
+    padding-top: 2%;
+}
+.relevantIntroduces dt{
+    font-size: 18px;
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+.relevantIntroduces span{
+    color: #999;
+    padding-left: 33px;
+    cursor: pointer;
+}
+.relevantIntroduces span:hover{
+    color: #0089cd;
+}
+.introducesSpan{
+    margin-left: -33px;
+
+}
+.publicNumber{
+    margin-left: 78%;
+    margin-top: -25%;
+}
+.publicNumber img{
+    width: 70%;
+}
+.publicNumber div{
+    color: #999;
+    font-size: 18px;
+    margin-left: 35px;
+    margin-top: 7px;
+}
+.platform{
+    background-color: #22272c;
+    color: #fff;
+    height: 97px;  
+}
+.platform span{
+    display: inline-block;
+    margin-top: 21px;
+    padding: 8px;
+    cursor:pointer;
+}
+.last{
+    font-size: 13px;
+}
